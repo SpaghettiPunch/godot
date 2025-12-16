@@ -1,0 +1,126 @@
+version: '3'
+
+vars:
+  PLATFORM: windows
+  ARCH: x86_64
+  GODOT_OUTPUT_DIR: ./bin
+  LOCAL_NUGET_SOURCE: 'C:\Users\{{.USER}}\MyLocalNugetSource'
+  USE_D3D12: "yes"
+  MODULE_MONO_ENABLED: "yes"
+  USER:
+    sh: echo %USERNAME%
+
+tasks:
+  setup:d3d12:
+    desc: "Install DirectX 12 SDK using Godot script"
+    cmds:
+      - python misc/scripts/install_d3d12_sdk_windows.py
+
+  setup:nuget:
+    desc: "Setup local NuGet source for development packages"
+    cmds:
+      - cmd: mkdir "{{.LOCAL_NUGET_SOURCE}}" 2>nul || echo Directory may already exist
+        silent: true
+      - dotnet nuget add source "{{.LOCAL_NUGET_SOURCE}}" --name MyLocalNugetSource || echo Source may already exist
+
+  build:editor:
+    desc: "Build Godot editor binary with .NET support (Windows x86_64)"
+    cmds:
+      - scons platform={{.PLATFORM}} target=editor arch={{.ARCH}} module_mono_enabled={{.MODULE_MONO_ENABLED}} d3d12={{.USE_D3D12}}
+
+  build:template-debug:
+    desc: "Build Godot debug export template with .NET support (Windows x86_64)"
+    cmds:
+      - scons platform={{.PLATFORM}} target=template_debug arch={{.ARCH}} module_mono_enabled={{.MODULE_MONO_ENABLED}} d3d12={{.USE_D3D12}}
+
+  build:template-release:
+    desc: "Build Godot release export template with .NET support (Windows x86_64)"
+    cmds:
+      - scons platform={{.PLATFORM}} target=template_release arch={{.ARCH}} module_mono_enabled={{.MODULE_MONO_ENABLED}} d3d12={{.USE_D3D12}}
+
+  build:templates:
+    desc: "Build both debug and release export templates with .NET support"
+    cmds:
+      - task: build:template-debug
+      - task: build:template-release
+
+  build:all:
+    desc: "Build editor and all export templates with .NET support"
+    cmds:
+      - task: build:editor
+      - task: build:templates
+
+  generate:glue:
+    desc: "Generate C# glue sources for the Godot API"
+    requires:
+      vars:
+        - GODOT_OUTPUT_DIR
+    cmds:
+      - "{{.GODOT_OUTPUT_DIR}}/godot.{{.PLATFORM}}.editor.{{.ARCH}}.mono.exe --headless --generate-mono-glue modules/mono/glue"
+
+  build:assemblies:
+    desc: "Build .NET managed libraries"
+    requires:
+      vars:
+        - GODOT_OUTPUT_DIR
+        - LOCAL_NUGET_SOURCE
+    cmds:
+      - ./modules/mono/build_scripts/build_assemblies.py --godot-output-dir {{.GODOT_OUTPUT_DIR}} --push-nupkgs-local "{{.LOCAL_NUGET_SOURCE}}" --godot-platform={{.PLATFORM}}
+
+  build:assemblies:no-deprecated:
+    desc: "Build .NET managed libraries without deprecated features"
+    requires:
+      vars:
+        - GODOT_OUTPUT_DIR
+        - LOCAL_NUGET_SOURCE
+    cmds:
+      - ./modules/mono/build_scripts/build_assemblies.py --godot-output-dir {{.GODOT_OUTPUT_DIR}} --push-nupkgs-local "{{.LOCAL_NUGET_SOURCE}}" --godot-platform={{.PLATFORM}} --no-deprecated
+
+  build:assemblies:double-precision:
+    desc: "Build .NET managed libraries with double precision support"
+    requires:
+      vars:
+        - GODOT_OUTPUT_DIR
+        - LOCAL_NUGET_SOURCE
+    cmds:
+      - ./modules/mono/build_scripts/build_assemblies.py --godot-output-dir {{.GODOT_OUTPUT_DIR}} --push-nupkgs-local "{{.LOCAL_NUGET_SOURCE}}" --godot-platform={{.PLATFORM}} --precision=double
+
+  full-build:
+    desc: "Complete build workflow: editor + templates + glue generation + assemblies"
+    deps:
+      - setup:nuget
+    cmds:
+      - task: build:all
+      - task: generate:glue
+      - task: build:assemblies
+
+  clean:bin:
+    desc: "Remove build artifacts from bin directory"
+    cmds:
+      - cmd: rmdir /s /q {{.GODOT_OUTPUT_DIR}} 2>nul || echo Directory doesn't exist
+        silent: true
+
+  clean:glue:
+    desc: "Remove generated glue sources"
+    cmds:
+      - cmd: rmdir /s /q modules/mono/glue 2>nul || echo Directory doesn't exist
+        silent: true
+
+  clean:all:
+    desc: "Clean all build artifacts and generated files"
+    cmds:
+      - task: clean:bin
+      - task: clean:glue
+
+  info:
+    desc: "Display build information"
+    cmds:
+      - echo "Platform {{.PLATFORM}} Arch {{.ARCH}}"
+      - echo "Godot Output Directory {{.GODOT_OUTPUT_DIR}}"
+      - echo "Local NuGet Source {{.LOCAL_NUGET_SOURCE}}"
+      - echo "D3D12 Support {{.USE_D3D12}}"
+      - echo "Module Mono Enabled {{.MODULE_MONO_ENABLED}}"
+      - echo Dotnet Version
+      - dotnet --version
+      - echo SCons Version
+      - scons --version
