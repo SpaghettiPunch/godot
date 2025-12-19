@@ -1,0 +1,122 @@
+[
+  {
+    "label": "info - Display build information",
+    "command": "task",
+    "args": [
+      "info"
+    ],
+    "use_new_terminal": true
+  },
+  {
+    "label": "build:all - Build editor and all export templates with .NET support",
+    "command": "task",
+    "args": [
+      "build:all"
+    ],
+    "use_new_terminal": true
+  },
+  {
+    "label": "build:dotnet-assemblies - Build .NET managed libraries",
+    "command": "task",
+    "args": [
+      "build:dotnet-assemblies"
+    ],
+    "use_new_terminal": true
+  },
+  {
+    "label": "build:editor - Build Godot editor binary with .NET support (Windows x86_64)",
+    "command": "task",
+    "args": [
+      "build:editor"
+    ],
+    "use_new_terminal": true
+  },
+  {
+    "label": "build:editor-dotnet - Complete build workflow: editor + templates + glue generation + assemblies",
+    "command": "task",
+    "args": [
+      "build:editor-dotnet"
+    ],
+    "use_new_terminal": true
+  },
+  {
+    "label": "build:template-debug - Build Godot debug export template with .NET support (Windows x86_64)",
+    "command": "task",
+    "args": [
+      "build:template-debug"
+    ],
+    "use_new_terminal": true
+  },
+  {
+    "label": "build:template-release - Build Godot release export template with .NET support (Windows x86_64)",
+    "command": "task",
+    "args": [
+      "build:template-release"
+    ],
+    "use_new_terminal": true
+  },
+  {
+    "label": "build:templates - Build both debug and release export templates with .NET support",
+    "command": "task",
+    "args": [
+      "build:templates"
+    ],
+    "use_new_terminal": true
+  },
+  {
+    "label": "clean:all - Clean all build artifacts and generated files",
+    "command": "task",
+    "args": [
+      "clean:all"
+    ],
+    "use_new_terminal": true
+  },
+  {
+    "label": "clean:bin - Remove build artifacts from bin directory",
+    "command": "task",
+    "args": [
+      "clean:bin"
+    ],
+    "use_new_terminal": true
+  },
+  {
+    "label": "clean:glue - Remove generated glue sources",
+    "command": "task",
+    "args": [
+      "clean:glue"
+    ],
+    "use_new_terminal": true
+  },
+  {
+    "label": "clean:untracked-git - Remove untracked files and directories using Git",
+    "command": "task",
+    "args": [
+      "clean:untracked-git"
+    ],
+    "use_new_terminal": true
+  },
+  {
+    "label": "generate:glue - Generate C# glue sources for the Godot API",
+    "command": "task",
+    "args": [
+      "generate:glue"
+    ],
+    "use_new_terminal": true
+  },
+  {
+    "label": "setup:d3d12 - Install DirectX 12 SDK using Godot script",
+    "command": "task",
+    "args": [
+      "setup:d3d12"
+    ],
+    "use_new_terminal": true
+  },
+  {
+    "label": "zed:generate-tasks - Sync Zed Taskfile.yml to tasks.json",
+    "command": "task",
+    "args": [
+      "zed:generate-tasks"
+    ],
+    "use_new_terminal": true
+  }
+]

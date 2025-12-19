@@ -1,0 +1,8 @@
+[
+  {
+    "label": "Debug Godot Editor",
+    "program": "$ZED_WORKTREE_ROOT/bin/godot.windows.editor.x86_64.mono.exe",
+    "request": "launch",
+    "adapter": "CodeLLDB"
+  }
+]
