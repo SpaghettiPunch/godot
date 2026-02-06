@@ -20,8 +20,14 @@ tasks:
     cmds:
       - wsl taskfile-to-tasks --task-cmd 'task'
 
+  build:all:
+    desc: "Build editor and all export templates with .NET support"
+    cmds:
+      - task: build:editor-dotnet
+
   setup:d3d12:
     desc: "Install DirectX 12 SDK using Godot script"
+    if: '[ "{{.USE_D3D12}}" == "yes" ]'
     cmds:
       - python misc/scripts/install_d3d12_sdk_windows.py
 
@@ -29,6 +35,8 @@ tasks:
     desc: "Build Godot editor binary with .NET support (Windows x86_64)"
     cmds:
       - scons platform={{.PLATFORM}} target=editor arch={{.ARCH}} module_mono_enabled={{.MODULE_MONO_ENABLED}} d3d12={{.USE_D3D12}} dev_build={{.DEV_BUILD}} compiledb={{.COMPILEDB}}
+    deps:
+      - setup:d3d12
 
   build:template-debug:
     desc: "Build Godot debug export template with .NET support (Windows x86_64)"
@@ -45,12 +53,6 @@ tasks:
     cmds:
       - task: build:template-debug
       - task: build:template-release
-
-  build:all:
-    desc: "Build editor and all export templates with .NET support"
-    cmds:
-      - task: build:editor
-      # - task: build:templates
 
   generate:glue:
     desc: "Generate C# glue sources for the Godot API"
