@@ -11557,9 +11557,6 @@ msgstr "2D 스켈레톤 편집기에서 역운동학이 활성화된 본에 사�
 msgid "Maximum number of matches to show in dialog."
 msgstr "대화 상자에 보여줄 최대 일치 수."
 
-msgid "Tab style of editor docks, except bottom docks."
-msgstr "아래 독을 제외한 편집기 독의 탭 스타일."
-
 msgid ""
 "If [code]true[/code], editor UI uses OS native file/directory selection "
 "dialogs."

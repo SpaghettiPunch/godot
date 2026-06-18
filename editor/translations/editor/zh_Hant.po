@@ -7779,12 +7779,6 @@ msgstr "標籤名稱不能為空。"
 msgid "Tag name can't begin or end with underscore."
 msgstr "標籤名稱不可以下劃線開頭或結尾。"
 
-msgid "Tag name can't begin or end with underscore."
-msgstr "標籤名稱不可以下劃線開頭或結尾。"
-
-msgid "Tag name can't contain consecutive underscores."
-msgstr "標籤名稱不可包含連續的下劃線。"
-
 msgid "These characters are not allowed in tags: %s."
 msgstr "標籤中不允許使用以下字元：%s。"
 
@@ -8245,9 +8239,6 @@ msgid ""
 msgstr ""
 "內嵌遊戲尺寸以專案設定為準。\n"
 "當遊戲工作區小於期望尺寸時，會使用「保持比例」模式。"
-
-msgid "Embedded game size is based on project settings."
-msgstr "內嵌遊戲大小將依據專案設定。"
 
 msgid "Keep the aspect ratio of the embedded game."
 msgstr "保持內嵌遊戲的長寬比。"
@@ -12944,9 +12935,6 @@ msgstr "自動剪裁"
 
 msgid "Create Frames from Sprite Sheet"
 msgstr "自 Sprite 圖集建立影格"
-
-msgid "Toggle color channel preview selection."
-msgstr "切換色彩通道預覽選取。"
 
 msgid "Toggle color channel preview selection."
 msgstr "切換色彩通道預覽選取。"

@@ -118,9 +118,6 @@ msgstr "بازنویسی تنظیمات پروژه"
 msgid "Disable Project Settings Override"
 msgstr "غیرفعال کردن بازنویسی تنظیمات پروژه"
 
-msgid "Disable Project Settings Override"
-msgstr "غیرفعال کردن Override تنظیمات پروژه"
-
 msgid "Main Loop Type"
 msgstr "نوع حلقهٔ اصلی"
 

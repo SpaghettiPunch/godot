@@ -4134,9 +4134,6 @@ msgstr "Gå till nästa markerade mapp/fil."
 msgid "Change Split Mode"
 msgstr "Ändra klyvningsläge"
 
-msgid "Dock Placement"
-msgstr "Docka placering"
-
 msgid "Filter Files"
 msgstr "Filtrera filer"
 
@@ -4155,9 +4152,6 @@ msgid ""
 msgstr ""
 "Skannar Filer,\n"
 "Vänligen Vänta..."
-
-msgid "Filesystem Scan"
-msgstr "Scanna filsystem"
 
 msgid "Filesystem Scan"
 msgstr "Scanna filsystem"
@@ -4776,13 +4770,6 @@ msgstr ""
 "Markerar alla noder som tillhör den angivna gruppen.\n"
 "Om tomt, markeras alla noder som tillhör någon grupp.\n"
 "Infogar \"group:\". Du kan också använda förkortningen \"g:\"."
-
-msgid ""
-"Selects all Nodes belonging to the given group.\n"
-"If empty, selects any Node belonging to any group."
-msgstr ""
-"Markerar alla noder som tillhör den angivna gruppen.\n"
-"Om det lämnas tomt kan noder tillhörande vilken grupp som helst väljas."
 
 msgid ""
 "Cannot attach a script: there are no languages registered.\n"
@@ -5880,9 +5867,6 @@ msgstr "Renderare"
 msgid "Update Mode"
 msgstr "Uppdateringsläge"
 
-msgid "Update Mode"
-msgstr "Uppdateringsläge"
-
 msgid "Update Continuously"
 msgstr "Uppdatera kontinuerligt"
 
@@ -5915,9 +5899,6 @@ msgstr "Mallpaket"
 
 msgid "Export Library"
 msgstr "Exportera bibliotek"
-
-msgid "Files have been modified outside Godot"
-msgstr "Filer har modifierats på disk utanför Godot"
 
 msgid "Files have been modified outside Godot"
 msgstr "Filer har modifierats på disk utanför Godot"
@@ -8668,12 +8649,6 @@ msgstr ""
 "Den angivna sökvägen innehåller otillåtna tecken eller överflödiga blanksteg."
 
 msgid ""
-"The directory name specified contains invalid characters or trailing "
-"whitespace."
-msgstr ""
-"Den angivna sökvägen innehåller otillåtna tecken eller överflödiga blanksteg."
-
-msgid ""
 "Creating a project at the engine's working directory or executable directory "
 "is not allowed, as it would prevent the project manager from starting."
 msgstr ""
@@ -9191,12 +9166,6 @@ msgstr "Namnet får inte innehålla blanksteg eller avslutas med understreck."
 msgid "Tag name can't contain consecutive underscores or spaces."
 msgstr "Taggnamn får inte innehålla flera understreck eller mellanslag i följd."
 
-msgid "Tag name can't begin or end with underscore."
-msgstr "Namnet får inte innehålla blanksteg eller avslutas med understreck."
-
-msgid "Tag name can't contain consecutive underscores."
-msgstr "Namnet får inte innehålla upprepade understreck."
-
 msgid "These characters are not allowed in tags: %s."
 msgstr "Följande tecken är otillåtna i etiketter: %s."
 
@@ -9205,9 +9174,6 @@ msgstr "Om Godot"
 
 msgid "Window"
 msgstr "Fönster"
-
-msgid "About Godot"
-msgstr "Om Godot"
 
 msgid "Settings"
 msgstr "Inställningar"
@@ -10685,18 +10651,6 @@ msgstr "Klistra in brickor"
 
 msgid "Selection Tool"
 msgstr "Markeringsverktyg"
-
-msgid "Paint Tool"
-msgstr "Brickmålare"
-
-msgid "Line Tool"
-msgstr "Radverktyg"
-
-msgid "Rect Tool"
-msgstr "Rektangelverktyg"
-
-msgid "Bucket Tool"
-msgstr "Hinkverktyg"
 
 msgid "Paint Tool"
 msgstr "Brickmålare"
@@ -15329,15 +15283,6 @@ msgstr "Töm innan"
 msgid "Empty After"
 msgstr "Töm efter"
 
-msgid "Load Sheet"
-msgstr "Ladda ark"
-
-msgid "Empty Before"
-msgstr "Töm innan"
-
-msgid "Empty After"
-msgstr "Töm efter"
-
 msgid "Delete Frame"
 msgstr "Radera bildruta"
 
@@ -15445,9 +15390,6 @@ msgstr "Autodela"
 
 msgid "Create Frames from Sprite Sheet"
 msgstr "Skapa bildrutor från spritesheet"
-
-msgid "Toggle color channel preview selection."
-msgstr "Slå på/av förhandsvisning av vald färgkanal."
 
 msgid "Toggle color channel preview selection."
 msgstr "Slå på/av förhandsvisning av vald färgkanal."
@@ -16182,9 +16124,6 @@ msgstr "Åtgärd"
 
 msgid "Deadzone"
 msgstr "Dödzon"
-
-msgid "Must be a valid Unicode identifier."
-msgstr "Måste vara en giltig Unicode-identifierare."
 
 msgid "Must be a valid Unicode identifier."
 msgstr "Måste vara en giltig Unicode-identifierare."
@@ -17135,9 +17074,6 @@ msgstr "Shaderredigerare"
 
 msgid "Toggle Shader Editor Dock"
 msgstr "Växla skadereditorpanel"
-
-msgid "No valid shader stages found."
-msgstr "Inga giltiga shader-stadier hittades."
 
 msgid "No valid shader stages found."
 msgstr "Inga giltiga shader-stadier hittades."
@@ -20361,9 +20297,6 @@ msgstr ""
 msgid "Exporting to Android when using C#/.NET is experimental."
 msgstr "Export till Android med C#/.NET är experimentellt."
 
-msgid "Gradle build is not supported for the Android editor."
-msgstr "Gradle-bygget stöds inte för Android-redigeraren."
-
 msgid "Custom Android source template not found."
 msgstr "Anpassat Android-källmall hittades inte."
 
@@ -22757,12 +22690,6 @@ msgstr "Saknar matchande ':' för select‑operatorn."
 msgid "Invalid argument to ternary operator: '%s'."
 msgstr "Ogiltigt argument till den ternära operatorn (?:): '%s'."
 
-msgid "Missing matching ':' for select operator."
-msgstr "Saknar matchande ':' för select‑operatorn."
-
-msgid "Invalid argument to ternary operator: '%s'."
-msgstr "Ogiltigt argument till den ternära operatorn (?:): '%s'."
-
 msgid "Invalid arguments to operator '%s': '%s'."
 msgstr "Ogiltiga argument för operator '%s': '%s'."
 
@@ -23189,9 +23116,6 @@ msgstr "Omatchat '%s' direktiv."
 
 msgid "Missing condition."
 msgstr "Saknat villkor."
-
-msgid "Condition evaluation error."
-msgstr "Fel vid utvärdering av villkor."
 
 msgid "Condition evaluation error."
 msgstr "Fel vid utvärdering av villkor."

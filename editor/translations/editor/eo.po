@@ -1723,9 +1723,6 @@ msgstr "Ĉio"
 msgid "No results for \"%s\"."
 msgstr "Ne rezultoj por \"%s\"."
 
-msgid "Search Templates, Projects, and Demos"
-msgstr "Serĉi ŝablonojn, projektojn aŭ demonstrojn"
-
 msgid "Import..."
 msgstr "Importi..."
 
@@ -1743,9 +1740,6 @@ msgstr "Permesiloj"
 
 msgid "Assets ZIP File"
 msgstr "ZIP-dosiero de havaĵoj"
-
-msgid "AssetLib"
-msgstr "Havaĵejo"
 
 msgid "Error opening asset file for \"%s\" (not in ZIP format)."
 msgstr "Eraro dum la malfermo de la havaĵo «%s» (ĝi ne estas en la ZIP-formo)."
@@ -2817,9 +2811,6 @@ msgstr "<nekonate>"
 msgid "Sub-Resources"
 msgstr "Subrimedoj"
 
-msgid "Access as Unique Name"
-msgstr "Atingo per ununura nomo"
-
 msgid "Clear Inheritance"
 msgstr "Nuligi la heredon"
 
@@ -2832,14 +2823,8 @@ msgstr "Atingo per ununura nomo"
 msgid "Open in Editor"
 msgstr "Malfermi en la redaktilon"
 
-msgid "Editable Children"
-msgstr "Redakteblaj idoj"
-
 msgid "Paste Node(s) as Root"
 msgstr "Alglui la nodo(j)n kiel radikon"
-
-msgid "None"
-msgstr "Nenio"
 
 msgid "Add Child Node..."
 msgstr "Aldoni idan nodon..."
@@ -4078,9 +4063,6 @@ msgstr "Sen dato"
 msgid "Scanning for projects..."
 msgstr "Esploro de projektoj..."
 
-msgid "Scanning for projects..."
-msgstr "Esploro de projektoj..."
-
 msgid "Missing Project"
 msgstr "Netrovita projekto"
 
@@ -4089,10 +4071,6 @@ msgstr "Lanĉi la projekton"
 
 msgid "New Window"
 msgstr "Nova fenestro"
-
-msgctxt "Application"
-msgid "Project Manager"
-msgstr "Projekt-administrilo"
 
 msgctxt "Application"
 msgid "Project Manager"
@@ -5324,9 +5302,6 @@ msgstr "Minuskla"
 
 msgid "Capitalize"
 msgstr "Kapitaligi"
-
-msgid "Script"
-msgstr "Kodo"
 
 msgid "Script"
 msgstr "Kodo"

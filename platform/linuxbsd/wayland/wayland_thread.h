@@ -297,8 +297,6 @@ public:
 
 		bool ready = false; // Is configured or otherwise ready to be mapped.
 
-		bool ready = false; // Is configured or otherwise ready to be mapped.
-
 		// Toplevel states.
 		bool maximized = false; // MUST obey configure size.
 		bool fullscreen = false; // Can be smaller than configure size.

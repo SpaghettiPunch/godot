@@ -20491,11 +20491,6 @@ msgstr ""
 "Для использования модулей необходимо включить опцию «Использовать сборку "
 "Gradle» (Use Gradle Build)."
 
-msgid "Support for \"Use Gradle Build\" on Android is currently experimental."
-msgstr ""
-"Поддержка функции \"Использовать сборку Gradle\" на Android в настоящее время "
-"находится в экспериментальной стадии."
-
 msgid ""
 "\"Compress Native Libraries\" is only valid when \"Use Gradle Build\" is "
 "enabled."

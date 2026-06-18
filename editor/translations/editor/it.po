@@ -2489,9 +2489,6 @@ msgstr "Errori"
 msgid "Thumbnail"
 msgstr "Miniatura"
 
-msgid "Open asset details"
-msgstr "Apri i dettagli del contenuto"
-
 msgid "Title"
 msgstr "Titolo"
 
@@ -4227,9 +4224,6 @@ msgstr "Vai al prossimo file (o cartella) selezionato."
 
 msgid "Change Split Mode"
 msgstr "Cambia la modalità divisione"
-
-msgid "Dock Placement"
-msgstr "Posizionamento del pannello"
 
 msgid "Filter Files"
 msgstr "Filtra i file"
@@ -5996,9 +5990,6 @@ msgstr "Renderer"
 msgid "Update Mode"
 msgstr "Modalità di aggiornamento"
 
-msgid "Update Mode"
-msgstr "Modalità di aggiornamento"
-
 msgid "Update Continuously"
 msgstr "Aggiorna continuamente"
 
@@ -6408,16 +6399,6 @@ msgstr "Esecuzione fallita, verificare il registro dell'editor per i dettagli."
 msgid "\"Shader Baker\" is not supported when using the Compatibility renderer."
 msgstr ""
 "Lo shader baker non è supportato quando si utilizza il renderer Compatibilità."
-
-msgid ""
-"The editor is currently using a different renderer than what the target "
-"platform will use. \"Shader Baker\" won't be able to include core shaders. "
-"Switch to the \"%s\" renderer temporarily to fix this."
-msgstr ""
-"L'editor sta utilizzando un renderer diverso da quello utilizzato dalla "
-"piattaforma di destinazione. \"Preparatore di shader\" non sarà in grado di "
-"includere gli shader base. Passa temporaneamente al renderer \"%s\" per "
-"risolverlo."
 
 msgid ""
 "The editor is currently using a different renderer than what the target "
@@ -7629,9 +7610,6 @@ msgstr "Rendi questo pannello mobile nello schermo %d."
 
 msgid "Make this panel floating."
 msgstr "Rendi questo pannello mobile."
-
-msgid "Right-click to open the screen selector."
-msgstr "Clic destro per aprire la selezione dello schermo."
 
 msgid "Right-click to open the screen selector."
 msgstr "Clic destro per aprire la selezione dello schermo."

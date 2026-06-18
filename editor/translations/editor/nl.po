@@ -1148,9 +1148,6 @@ msgstr "Animatie Hernoemen: %s"
 msgid "No animation resource in clipboard!"
 msgstr "Geen animatiebron in klembord!"
 
-msgid "No animation resource in clipboard!"
-msgstr "Geen animatiebron in klembord!"
-
 msgid "Pasted Animation"
 msgstr "Geplakte Animatie"
 
@@ -2260,12 +2257,6 @@ msgstr "Fouten"
 msgid "Title"
 msgstr "Titel"
 
-msgid "Title"
-msgstr "Titel"
-
-msgid "Category"
-msgstr "Categorie"
-
 msgid "Author"
 msgstr "Auteur"
 
@@ -2352,9 +2343,6 @@ msgstr "SHA256-hash controle mislukt"
 
 msgid "Asset Download Error:"
 msgstr "Asset-downloadfout:"
-
-msgid "Ready to install!"
-msgstr "Klaar om te installeren!"
 
 msgid "Downloading (%s / %s)..."
 msgstr "Bezig met neerladen (%s / %s)..."

@@ -837,9 +837,6 @@ msgstr ""
 msgid "Blend"
 msgstr "Prolínání"
 
-msgid "Blend Value"
-msgstr "Hodnota prolnutí"
-
 msgid "Open Editor"
 msgstr "Otevřít editor"
 
@@ -1496,9 +1493,6 @@ msgstr ""
 "PTM: Přidat uzel na místo kliknutí.\n"
 "Shift+LTM+Táhnutí: Připojí vybraný uzel s jiným, nebo vytvoří nový uzel, "
 "pokud vyberete oblast bez uzlů."
-
-msgid "Select and move nodes."
-msgstr "Vybrat a přesunout uzel."
 
 msgid "Select and move nodes."
 msgstr "Vybrat a přesunout uzel."
@@ -2273,22 +2267,6 @@ msgstr "Typ přechodu:"
 msgid "Ease Type:"
 msgstr "Typ uhlazení:"
 
-msgctxt "Ease Type"
-msgid "Ease In"
-msgstr "Vyhlazení vnitřní"
-
-msgctxt "Ease Type"
-msgid "Ease Out"
-msgstr "Vyhlazení vnější"
-
-msgctxt "Ease Type"
-msgid "Ease In-Out"
-msgstr "Vyhlazení zvnitřku ven"
-
-msgctxt "Ease Type"
-msgid "Ease Out-In"
-msgstr "Vyhlazení zvnějšku dovnitř"
-
 msgid "FPS:"
 msgstr "FPS:"
 
@@ -2426,9 +2404,6 @@ msgstr "Miniatura"
 
 msgid "Title"
 msgstr "Název"
-
-msgid "Category"
-msgstr "Kategorie"
 
 msgid "Author"
 msgstr "Autor"
@@ -3705,9 +3680,6 @@ msgstr "Místní proměnná"
 msgid "Text File"
 msgstr "Textový soubor"
 
-msgid "Text File"
-msgstr "Textový soubor"
-
 msgid "File"
 msgstr "Soubor"
 
@@ -4821,9 +4793,6 @@ msgstr "(použito %d krát)"
 msgid "Open Scene Dock"
 msgstr "Otevřít dok scény"
 
-msgid "Open Scene Dock"
-msgstr "Otevřít dok scény"
-
 msgid "Batch Rename..."
 msgstr "Hromadné přejmenování..."
 
@@ -4963,9 +4932,6 @@ msgstr "Přepnout dok Výstupu"
 msgid "Clear Log"
 msgstr "Vymazat Log"
 
-msgid "Clear Log"
-msgstr "Vymazat Log"
-
 msgid "Clear Output"
 msgstr "Promazat výstup"
 
@@ -4975,9 +4941,6 @@ msgstr "Sloučit duplicitní zprávy do jednoho záznamu. Zobrazuje počet výsk
 
 msgid "Filter Messages"
 msgstr "Filtrovat zprávy"
-
-msgid "Standard Messages"
-msgstr "Běžné zprávy"
 
 msgid "Standard Messages"
 msgstr "Běžné zprávy"
@@ -5056,23 +5019,6 @@ msgstr ""
 
 msgid "Error saving resource at path \"%s\": %s."
 msgstr "Chyba při ukládání zdroje do cesty \"%s\": %s."
-
-msgid ""
-"The text-based resource at path \"%s\" is large on disk (%s), likely because "
-"it has embedded binary data.\n"
-"This slows down resource saving and loading.\n"
-"Consider saving its binary subresource(s) to a binary `.res` file or saving "
-"the resource as a binary `.res` file.\n"
-"This warning can be disabled in the Editor Settings (FileSystem > On Save > "
-"Warn on Saving Large Text Resources)."
-msgstr ""
-"Textový zdroj na cestě \"%s\" je na disku (%s) velký, pravděpodobně proto, že "
-"má vložená binární data.\n"
-"To zpomaluje úsporu zdrojů a načítání.\n"
-"Zvažte uložení jeho binárního podzdroje(ů) do binárního souboru `.res` nebo "
-"uložení zdroje jako binárního souboru `.res`.\n"
-"Toto varování lze deaktivovat v Nastavení editoru (Systém souborů > Při "
-"ukládání > Varovat při ukládání velkých textových zdrojů)."
 
 msgid ""
 "The text-based resource at path \"%s\" is large on disk (%s), likely because "
@@ -6561,14 +6507,6 @@ msgstr ""
 "Stáhnutí selhalo.\n"
 "Důvod: %s."
 
-msgid "No templates for double-precision builds"
-msgstr "Žádné šablony pro sestavení s dvojitou přesností"
-
-msgid "Official export templates aren't available for double-precision builds."
-msgstr ""
-"Oficiální šablony exportu nejsou k dispozici pro sestavení s dvojitou "
-"přesností."
-
 msgid "Uncompressing Android Build Sources"
 msgstr "Dekomprese zdrojů sestavení pro Android"
 
@@ -6822,47 +6760,12 @@ msgstr ""
 msgid "Exclude Filters"
 msgstr "Vyloučit Filtry"
 
-msgid "Exclude Filters"
-msgstr "Vyloučit Filtry"
-
 msgid ""
 "Filters to exclude files/folders from project\n"
 "(comma-separated, e.g: *.cfg, *.txt, docs/*)"
 msgstr ""
 "Filtry pro vynechání souborů/složek z projektu\n"
 "(oddělené čárkou, např.: *.cfg, *.txt, docs/*)"
-
-msgid "Patching"
-msgstr "Opravování"
-
-msgid "Enable Delta Encoding"
-msgstr "Povolit Delta kódování"
-
-msgid "Delta Encoding Compression Level"
-msgstr "Level komprese Delta kódování"
-
-msgid "Delta Encoding Minimum Size Reduction"
-msgstr "Minimální zmenšení velikost Delta kódování"
-
-msgid "Delta Encoding Include Filters"
-msgstr "Zahrnuté filtry Delta kódování"
-
-msgid ""
-"Filters to include files/folders from being delta-encoded\n"
-"(comma-separated, e.g: *.gdc, scripts/*)"
-msgstr ""
-"Filtry pro zahrnutí souborů/složek z delta kódování\n"
-"(oddělené čárkou, např. *.gdc, skripty/*)"
-
-msgid "Delta Encoding Exclude Filters"
-msgstr "Zahrnuté filtry Delta kódování"
-
-msgid ""
-"Filters to exclude files/folders from being delta-encoded\n"
-"(comma-separated, e.g: *.ctex, textures/*)"
-msgstr ""
-"Filtry pro vynechání souborů/složek z delta kódování\n"
-"(oddělené čárkou, např. *.ctex, textury/*)"
 
 msgid "Patching"
 msgstr "Opravování"
@@ -7103,12 +7006,6 @@ msgstr "Vlastníci souborů ke smazání:"
 
 msgid "Owners"
 msgstr "Vlastníci"
-
-msgid "Error loading: %s"
-msgstr "Chyba při načítání: %s"
-
-msgid "Referenced by %s"
-msgstr "Odkazováno od %s"
 
 msgid "Error loading: %s"
 msgstr "Chyba při načítání: %s"
@@ -9967,12 +9864,6 @@ msgstr "Přesunout střed gravitace do geometrického středu."
 msgid "Move Geometric Center"
 msgstr "Přesunout geometrický střed"
 
-msgid "Move center of gravity to geometric center."
-msgstr "Přesunout střed gravitace do geometrického středu."
-
-msgid "Move Geometric Center"
-msgstr "Přesunout geometrický střed"
-
 msgid "Edit Polygon"
 msgstr "Upravit polygon"
 
@@ -12182,9 +12073,6 @@ msgstr "Přichycení vrcholu zrušeno."
 msgid "Reset Transform"
 msgstr "Obnovit transformaci"
 
-msgid "Reset Transform"
-msgstr "Obnovit transformaci"
-
 msgid "Grouped"
 msgstr "Seskupeno"
 
@@ -12231,35 +12119,6 @@ msgstr ""
 
 msgid "Following %s"
 msgstr "Sledování %s"
-
-msgid "X: %s"
-msgstr "X: %s"
-
-msgid "Y: %s"
-msgstr "Y: %s"
-
-msgid "Z: %s"
-msgstr "Z: %s"
-
-msgid "Size: %s (%.1fMP)"
-msgstr "Velikost: %s (%.1fMP)"
-
-msgid "Objects: %d"
-msgstr "Objekty: %d"
-
-msgid "Primitives: %d"
-msgstr "Primitivy: %d"
-
-msgid ""
-"This debug draw mode is only supported when using the Forward+ or Mobile "
-"renderer."
-msgstr ""
-"Tento ladící režim kreslení je podporován jen při použití Forward+ nebo "
-"Mobile rendereru."
-
-msgid "This debug draw mode is only supported when using the Forward+ renderer."
-msgstr ""
-"Tento ladící režim kreslení je podporován je při použití Forward+ rendereru."
 
 msgid "X: %s"
 msgstr "X: %s"
@@ -12844,9 +12703,6 @@ msgstr "Přidat náhled slunce do scény"
 msgid "Add Preview Environment to Scene"
 msgstr "Přidat náhled prostředí do scény"
 
-msgid "%s+Drag: Rotate selected node around pivot."
-msgstr "%s+Táhnutí: Otočit vybraný uzel kolem pivotu."
-
 msgid "Alt+RMB: Show list of all nodes at position clicked, including locked."
 msgstr ""
 "Alt+PTM: Zobrazit seznam všech uzlů na kliknuté pozici, včetně uzamčených."
@@ -12859,9 +12715,6 @@ msgstr "%s+Táhnutí: Přichytávat."
 
 msgid "LMB+Drag: Measure the distance between two points in 3D space."
 msgstr "LTM+Táhnutí: Měřit vzdálenost mezi dvěma body v 3D prostoru."
-
-msgid "%s+Drag: Use snap."
-msgstr "%s+Táhnutí: Přichytávat."
 
 msgid ""
 "Scene contains\n"
@@ -13782,9 +13635,6 @@ msgstr "Režim Kreslení Scény"
 
 msgid "List Selectable Nodes"
 msgstr "Vytvořit seznam volitelných uzlů"
-
-msgid "Change Pivot"
-msgstr "Změnit střed (Pivot)"
 
 msgid "Change Pivot"
 msgstr "Změnit střed (Pivot)"
@@ -16012,12 +15862,6 @@ msgstr "První písmena velká"
 msgid "Script"
 msgstr "Skript"
 
-msgid "ConfigFile"
-msgstr "Soubor konfigurace"
-
-msgid "Script"
-msgstr "Skript"
-
 msgid "Connections to method:"
 msgstr "Připojení k metodě:"
 
@@ -16342,9 +16186,6 @@ msgstr "Název autoloadu. Dvojitým kliknutím jej přejmenujete."
 
 msgid "Path to the autoload file. Double-click to open it."
 msgstr "Cesta k souboru autoload. Dvojitým kliknutím jej otevřete."
-
-msgid "Autoloads"
-msgstr "Autoloady"
 
 msgid "Global Variable"
 msgstr "Globální proměnná"
@@ -16887,9 +16728,6 @@ msgstr "Filtrovat nastavení"
 msgid "The Project Manager must be restarted for changes to take effect."
 msgstr "Pro projevení změn je nutné restartovat správce projektů."
 
-msgid "The Project Manager must be restarted for changes to take effect."
-msgstr "Pro projevení změn je nutné restartovat správce projektů."
-
 msgid "The editor must be restarted for changes to take effect."
 msgstr "Pro projevení změn je nutné restartovat editor."
 
@@ -17073,18 +16911,6 @@ msgstr "Fyzická pozice"
 
 msgid "Error: This action already contains this input event."
 msgstr "Chyba: Tato akce již obsahuje tuto vstupní akci."
-
-msgid "Alt or Option key"
-msgstr "Alt nebo tlačítko Nastavení"
-
-msgid "Shift key"
-msgstr "Tlačítko Shift"
-
-msgid "Control key"
-msgstr "Tlačítko Ctrl"
-
-msgid "Meta/Windows or Command key"
-msgstr "Tlačítko Meta/Windows nebo tlačítko Příkaz (Command)"
 
 msgid "Alt or Option key"
 msgstr "Alt nebo tlačítko Nastavení"
@@ -20203,9 +20029,6 @@ msgstr ""
 "Nelze převést VisualShader na GDShader protože VisualShader má vestavěné "
 "podzdroje."
 
-msgid "No translatable strings found."
-msgstr "Nebyly nalezeny žádné přeložitelné řetězce."
-
 msgid ""
 "Visual Shader conversion cannot convert external dependencies. Resource "
 "references from Nodes will have to be rebound as ShaderParameters on a "
@@ -20526,10 +20349,6 @@ msgstr "Chybí složka 'build-tools'!"
 
 msgid "Unable to find Android SDK build-tools' apksigner command."
 msgstr "Nelze najít apksigner příkaz nástrojů build-tools Android SDK."
-
-msgid "\"Use Gradle Build\" is required for transparent background on Android"
-msgstr ""
-"Pro průhledné pozadí v Androidu je vyžadováno \"Použít sestavení Gradle\""
 
 msgid ""
 "ETC2/ASTC texture compression is required for Android export. In Project "
@@ -22486,26 +22305,6 @@ msgid ""
 msgstr ""
 "Výchozí tvar kurzoru myši SubViewportContainer nemá žádný vliv.\n"
 "Zvažte, zda jej neponechat na původní hodnotě `CURSOR_ARROW`."
-
-msgid "Cell %d x %d: either text or alternative text must not be empty."
-msgstr "Buňka %d x %d: buď text nebo alternativní text nesmí být prázdný."
-
-msgid "Button %d in %d x %d: alternative text must not be empty."
-msgstr "Tlačítko %d v %d x %d: alternativní text nesmí být prázdný."
-
-msgid ""
-"Ancestor \"%s\" clips its children, so this node will not be able to clip its "
-"children."
-msgstr ""
-"Předek \"%s\" ořezává svého potomka, takže tento uzel nebude moci ořezávat "
-"své potomky."
-
-msgid ""
-"Ancestor \"%s\" is a CanvasGroup, so this node will not be able to clip its "
-"children."
-msgstr ""
-"Předek \"%s\" je typu CanvasGroup, takže tento uzel nebude moci ořezávat své "
-"potomky."
 
 msgid ""
 "STRETCH_TILE mode is not supported for an AtlasTexture with non-zero margin."

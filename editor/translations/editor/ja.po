@@ -6071,9 +6071,6 @@ msgstr "デルタ圧縮度"
 msgid "Delta Encoding Minimum Size Reduction"
 msgstr "差分符号化におけるサイズ削減量の最小値"
 
-msgid "Delta Encoding Compression Level"
-msgstr "デルタ圧縮度"
-
 msgid "Base Packs:"
 msgstr "ベースパック:"
 
@@ -6239,9 +6236,6 @@ msgstr "除去不可:"
 
 msgid "Files to be deleted:"
 msgstr "削除されるファイル:"
-
-msgid "Referenced by %s"
-msgstr "%s に参照されています"
 
 msgid "Referenced by %s"
 msgstr "%s に参照されています"

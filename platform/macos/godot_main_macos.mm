@@ -60,21 +60,6 @@ __attribute__((visibility("default"))) int main(int argc, char **argv) {
 	bool is_embedded = false;
 	bool is_headless = false;
 
-	const char *headless_args[] = {
-		"--headless",
-		"-h",
-		"--help",
-		"/?",
-		"--version",
-		"--dump-gdextension-interface",
-		"--dump-extension-api",
-		"--dump-extension-api-with-docs",
-		"--validate-extension-api",
-		"--convert-3to4",
-		"--validate-conversion-3to4",
-		"--doctool",
-	};
-
 	for (int i = 0; i < argc; i++) {
 		if (strcmp("-NSDocumentRevisionsDebugMode", argv[i]) == 0) {
 			// remove "-NSDocumentRevisionsDebugMode" and the next argument

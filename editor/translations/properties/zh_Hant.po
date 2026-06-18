@@ -2715,9 +2715,6 @@ msgstr "骨骼形狀"
 msgid "Lightmap GI Probe Size"
 msgstr "光照貼圖 GI 探針大小"
 
-msgid "Lightmap GI Probe Size"
-msgstr "光照貼圖 GI 探針大小"
-
 msgid "Primary Grid Steps"
 msgstr "主要格線間距"
 

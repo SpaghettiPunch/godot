@@ -6152,12 +6152,6 @@ msgstr "خطا در بارگذاری: %s"
 msgid "Referenced by %s"
 msgstr "ارجاع‌شده توسط %s"
 
-msgid "Error loading: %s"
-msgstr "خطا در بارگذاری: %s"
-
-msgid "Referenced by %s"
-msgstr "ارجاع‌شده توسط %s"
-
 msgid "Fix Dependencies"
 msgstr "بستگی‌ها را تعمیر کن"
 
@@ -8110,12 +8104,6 @@ msgstr "نام برچسب نمی‌تواند تهی باشد."
 
 msgid "Tag name can't begin or end with underscore."
 msgstr "نام تگ نمی‌تواند با زیرخط شروع یا تمام شود."
-
-msgid "Tag name can't begin or end with underscore."
-msgstr "نام تگ نمی‌تواند با زیرخط شروع یا تمام شود."
-
-msgid "Tag name can't contain consecutive underscores."
-msgstr "نام تگ نمی‌تواند شامل زیرخط‌های متوالی باشد."
 
 msgid "These characters are not allowed in tags: %s."
 msgstr "این کاراکتر‌ها در برچسب‌ها مجاز نیستند: %s."

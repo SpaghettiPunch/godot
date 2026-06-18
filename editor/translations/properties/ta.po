@@ -2772,9 +2772,6 @@ msgstr "Path3D டில்ட் டிச்க் அளவு"
 msgid "Lightmap GI Probe Size"
 msgstr "லைட்மேப் சி.ஐ ஆய்வு அளவு"
 
-msgid "Lightmap GI Probe Size"
-msgstr "லைட்மேப் சி.ஐ ஆய்வு அளவு"
-
 msgid "Primary Grid Steps"
 msgstr "முதன்மை கட்ட படிகள்"
 

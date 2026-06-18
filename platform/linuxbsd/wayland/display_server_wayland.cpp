@@ -2505,12 +2505,6 @@ DisplayServerWayland::DisplayServerWayland(const String &p_rendering_driver, Dis
 		return;
 	}
 
-	if (!windows.has(MAIN_WINDOW_ID) || !windows[MAIN_WINDOW_ID].visible) {
-		ERR_PRINT("Could not map the main window.");
-		r_error = ERR_CANT_CREATE;
-		return;
-	}
-
 #ifdef RD_ENABLED
 	if (rendering_context) {
 		rendering_device = memnew(RenderingDevice);

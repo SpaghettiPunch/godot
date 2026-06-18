@@ -1005,9 +1005,6 @@ msgstr "არააქტიური დამკვრელი"
 msgid "Toggle method names"
 msgstr "მეთოდის სახელების გადართვა"
 
-msgid "Inactive Player"
-msgstr "არააქტიური დამკვრელი"
-
 msgid "Only show tracks from nodes selected in tree."
 msgstr "მხოლოდ აჩვენე ჩანაწერები კვანძებიდან მონიშნული ხეში."
 
@@ -2432,9 +2429,6 @@ msgstr "დატოვება"
 
 msgid "Enable Delta Encoding"
 msgstr "დელტაკოდირების ჩართვა"
-
-msgid "Godot Project Pack"
-msgstr "Godot-ის პროექტების ნაკრები"
 
 msgid "Godot Project Pack"
 msgstr "Godot-ის პროექტების ნაკრები"
@@ -4258,9 +4252,6 @@ msgstr "გადიდების გაუქმება"
 msgid "As Selected"
 msgstr "როგორც მონიშნულია"
 
-msgid "As Selected"
-msgstr "როგორც მონიშნულია"
-
 msgid "Left to Right, Top to Bottom"
 msgstr "მარცხნიდან მარჯვნივ, ზემოდან ქვემოთ"
 
@@ -4833,9 +4824,6 @@ msgstr "შეიდერების რედაქტორი"
 
 msgid "ShaderFile"
 msgstr "შეიდერის ფაილი"
-
-msgid "Shader Editor"
-msgstr "შეიდერების რედაქტორი"
 
 msgid "Global shader parameter '%s' already exists."
 msgstr "გლობალური შეიდერის პარამეტრი '%s' უკვე არსებობს."

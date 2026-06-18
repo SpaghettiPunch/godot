@@ -2800,9 +2800,6 @@ msgstr "Forma dell'osso"
 msgid "Lightmap GI Probe Size"
 msgstr "Dimensione di sonde GI delle lightmap"
 
-msgid "Lightmap GI Probe Size"
-msgstr "Dimensione di sonde GI delle lightmap"
-
 msgid "Primary Grid Steps"
 msgstr "Passo della griglia primaria"
 
@@ -5055,9 +5052,6 @@ msgstr "SDK minimo"
 
 msgid "Target SDK"
 msgstr "SDK target"
-
-msgid "Custom Theme Attributes"
-msgstr "Attributi di tema personalizzati"
 
 msgid "Custom Theme Attributes"
 msgstr "Attributi di tema personalizzati"
@@ -8058,24 +8052,6 @@ msgstr "Direzione di testo del titolo"
 msgid "Allow Folding All"
 msgstr "Permetti di ridurre tutto"
 
-msgid "Title Alignment"
-msgstr "Allineamento del titolo"
-
-msgid "Title Position"
-msgstr "Posizione del titolo"
-
-msgid "Title Text Overrun Behavior"
-msgstr "Reazione al testo eccessivo del titolo"
-
-msgid "Foldable Group"
-msgstr "Gruppo riducibile"
-
-msgid "Title Text Direction"
-msgstr "Direzione di testo del titolo"
-
-msgid "Allow Folding All"
-msgstr "Permetti di ridurre tutto"
-
 msgid "Show Grid"
 msgstr "Mostra griglia"
 
@@ -8522,9 +8498,6 @@ msgstr "Allineamento scheda"
 
 msgid "Clip Tabs"
 msgstr "Ritaglia schede"
-
-msgid "Close With Middle Mouse"
-msgstr "Chiudi con clic centrale"
 
 msgid "Tab Close Display Policy"
 msgstr "Criterio per mostrare il pulsante di chiusura delle schede"
