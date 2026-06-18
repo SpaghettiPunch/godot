@@ -37,12 +37,20 @@ tasks:
     cmds:
       - python misc/scripts/install_d3d12_sdk_windows.py
 
+  setup:deps:
+    desc: "Install all dependencies (including D3D12 SDK if enabled)"
+    cmds:
+      - python misc/scripts/install_accesskit.py
+      - python misc/scripts/install_angle.py
+    deps:
+      - setup:d3d12
+
   build:editor:
     desc: "Build Godot editor binary with .NET support (Windows x86_64)"
     cmds:
       - scons platform={{.PLATFORM}} target=editor arch={{.ARCH}} module_mono_enabled={{.MODULE_MONO_ENABLED}} d3d12={{.USE_D3D12}} dev_build={{.DEV_BUILD}} compiledb={{.COMPILEDB}}
     deps:
-      - setup:d3d12
+      - setup:deps
 
   build:template-debug:
     desc: "Build Godot debug export template with .NET support (Windows x86_64)"
