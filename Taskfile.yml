@@ -20,6 +20,12 @@ tasks:
     cmds:
       - wsl taskfile-to-tasks --task-cmd 'task'
 
+  rebuild:
+    desc: "Clean and build everything"
+    cmds:
+      - task: clean:all
+      - task: build:all
+
   build:all:
     desc: "Build editor and all export templates with .NET support"
     cmds:
